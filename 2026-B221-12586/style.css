@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: o;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    
+}
+
+.calculator {
+    
+    height: 600px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.display {
+    display: flex;
+    height: 80px;
+    border-radius: 15px;
+    justify-content: flex-end;
+    display: flex;
+    background-color: #333;
+    color: white;
+    font-size: 45px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+
+
+
+
+.clear{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #a5a5a5;
+    color: black;
+    border: none;
+    font-size: 25px;
+
+}
+.operator{
+    background-color: orange;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.zero{
+    justify-content: space-around;
+    background-color: #333 ;
+color: white;
+border-radius: 25px;
+width: 135px;
+height: 50px;
+border: none;
+cursor: pointer;
+font-size: 20px;
+
+}
+.equals{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.keypad{
+    display: flex;
+    justify-content: space-around;
+}
